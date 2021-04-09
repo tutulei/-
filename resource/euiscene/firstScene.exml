@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="firstSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="703" height="423">
+    <e:Rect id="back" fillAlpha="1" enabled="true" width="100%" height="100%" fillColor="#DCDCDC">
+    </e:Rect>
+    <e:Label id="topLabel" text="活动会场人流" italic="true" textAlign="center" size="40" touchEnabled="true" alpha="1" verticalAlign="middle" textColor="0x000000" horizontalCenter="0" top="100">
+    </e:Label>
+    
+</e:Skin>
