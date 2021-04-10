@@ -35,7 +35,7 @@ const config: ResourceManagerConfig = {
                         html:{
                             templateFilePath:"template/web/index.html"
                         },
-                        open: true
+                        open: false
                     }),
                 ]
             }
