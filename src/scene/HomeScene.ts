@@ -126,7 +126,9 @@ class HomeScene extends Scene{
         this.addChild(describeButton);
         //添加事件
         startButton.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
-        
+        describeButton.addEventListener(egret.TouchEvent.TOUCH_TAP, function(){
+            SceneManager.instance.pushScene(new CommandCenterScene());
+        },this);
     }
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。

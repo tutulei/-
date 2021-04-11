@@ -13,8 +13,8 @@ class FirstScene extends Scene {
 
     public constructor() {
         super();
+        this.addEventListener(eui.UIEvent.COMPLETE,this.createComponents,this);
         this.skinName = "resource/euiscene/firstScene.exml";
-        this.createComponents();
     }
     public onComplete() {
         egret.log("第一个场景加载完成");
