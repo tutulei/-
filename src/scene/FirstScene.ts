@@ -84,6 +84,8 @@ class FirstScene extends Scene {
         this.LabelAC.text = this.format(GlobalVariable.AC);
         this.LabelLC.text = this.format(GlobalVariable.LC);
         this.LabelX.text = this.format(GlobalVariable.X);
+        //添加各个区域人数变动
+        
     }
 
     private oneLine(label: eui.Label, p1: string, p2: string) {

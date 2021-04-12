@@ -8,7 +8,7 @@ class GlobalVariable{
      * 实际现场人数峰值
      * N = PN ± Random(PN * 0.03)
      */
-    public static N: number;
+    public static N: number = 870000;
     /**
      * 现场人数
      */
